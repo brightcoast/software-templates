@@ -25,7 +25,9 @@ spec:
                   title: Description
                   type: string
                   ui:field: textarea
+                  ui:title: Description
                   description: Help others understand what this component is for.
+                  ui:placeholder: Help others understand what this component is for.
                   ui:options:
                       rows: 5
               owner:
