@@ -24,11 +24,12 @@ spec:
               description:
                   title: Description
                   type: string
-                  description: Help others understand what this website is for.
+                  ui:field: textarea
+                  description: Help others understand what this component is for.
               owner:
                   title: Owner
                   type: string
-                  description: Owner of the component
+                  description: Choose the team that will develop and maintain the component.
                   ui:field: OwnerPicker
                   ui:options:
                       allowedKinds:
