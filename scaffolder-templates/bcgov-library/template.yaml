@@ -9,7 +9,7 @@ metadata:
         - react
 spec:
     owner: dio@gov.bc.ca
-    type: website
+    type: library
     parameters:
         - title: Provide some simple information
           required:
