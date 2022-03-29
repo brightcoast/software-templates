@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+    name: bcgov-templates
+    description: An example set of Backstage scaffolder templates for BC Gov.
+spec:
+    targets:
+        - ./scaffolder-templates/bcgov-app/template.yaml
+        - ./scaffolder-templates/bcgov-library/template.yaml
+        - ./scaffolder-templates/common-component/template.yaml
