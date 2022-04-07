@@ -1,12 +1,12 @@
 {
-	"identifier": "${license_plate}",
-	"name": "${app_name}",
+	"identifier": "${{values.component_id | dump}}",
+	"name": "${{values.component_id | dump}}",
 	"accounts": [
-		$(generate_envs)
+		"dev", "test", "prod"
 	],
 	"tags": {
-		"admin_contact_email": "${admin_email}",
-		"admin_contact_name": "${admin_name}",
-		"billing_group": "${billing_group}"
+		"admin_contact_email": "${{values.owner | dump}}",
+		"admin_contact_name": "${{values.owner | dump}}",
+		"billing_group": "${{values.owner | dump}}"
 	}
 }
