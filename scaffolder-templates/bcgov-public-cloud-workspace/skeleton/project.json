@@ -1,0 +1,12 @@
+{
+	"identifier": "${license_plate}",
+	"name": "${app_name}",
+	"accounts": [
+		$(generate_envs)
+	],
+	"tags": {
+		"admin_contact_email": "${admin_email}",
+		"admin_contact_name": "${admin_name}",
+		"billing_group": "${billing_group}"
+	}
+}
