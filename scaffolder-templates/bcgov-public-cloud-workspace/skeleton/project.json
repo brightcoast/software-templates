@@ -1,12 +1,12 @@
 {
-	"identifier": "${{values.component_id | dump}}",
-	"name": "${{values.component_id | dump}}",
+	"identifier": ${{values.component_id | dump}},
+	"name": ${{values.component_id | dump}},
 	"accounts": [
 		"dev", "test", "prod"
 	],
 	"tags": {
-		"admin_contact_email": "${{values.owner | dump}}",
-		"admin_contact_name": "${{values.owner | dump}}",
-		"billing_group": "${{values.owner | dump}}"
+		"admin_contact_email": ${{values.owner | dump}},
+		"admin_contact_name": ${{values.owner | dump}},
+		"billing_group": ${{values.owner | dump}}
 	}
 }
