@@ -6,6 +6,7 @@ metadata:
 spec:
     targets:
         - ./scaffolder-templates/bcgov-app/template.yaml
+        - ./scaffolder-templates/bcgov-nextjs-app/template.yaml
         - ./scaffolder-templates/bcgov-library/template.yaml
         - ./scaffolder-templates/common-component/template.yaml
         - ./scaffolder-templates/bcgov-public-cloud-workspace/template.yaml
