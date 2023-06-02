@@ -10,3 +10,5 @@ spec:
         - ./scaffolder-templates/bcgov-library/template.yaml
         - ./scaffolder-templates/common-component/template.yaml
         - ./scaffolder-templates/bcgov-public-cloud-workspace/template.yaml
+        - ./scaffolder-templates/docs-template/template.yaml
+
